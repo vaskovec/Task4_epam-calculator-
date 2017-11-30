@@ -3,12 +3,12 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="by.bsu.mmf.calculatorTest.CalculatorTest">
+      <class name="by.bsu.mmf.calculator.CalculatorTest">
         <methods>
-          <include name="testSubtractionMinus"/>
-          <include name="testSubtractionTwoMinus"/>
+          <include name="testSubtractionZero"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- by.bsu.mmf.calculatorTest.CalculatorTest -->
+      </class> <!-- by.bsu.mmf.calculator.CalculatorTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
